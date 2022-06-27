@@ -10,7 +10,7 @@
 
 while true
 do
-    ip addr | grep 'state UP' -A2
+    ip r
 
     sleep 3
 
